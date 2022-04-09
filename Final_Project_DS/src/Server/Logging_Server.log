@@ -1,0 +1,1311 @@
+266943 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Successfully Add edge between node 6 and 5.
+266943 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 19 2
+266945 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 2 = 3.
+266945 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 3 3
+266945 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 2 14
+266946 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 14 2
+266946 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 4 12
+266946 [RMI TCP Connection(25)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+269101 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 8 9
+269102 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 9 = 2.
+269102 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 15 4
+269102 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 3 11
+269103 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 11 = 4.
+269103 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 9 1
+269103 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 17 10
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 10 = 3.
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 2 6
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 6 = 1.
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 10 12
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Successfully Add edge between node 10 and 12.
+269105 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 4 10
+269106 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 10 = 2.
+269106 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 6 9
+269106 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 9 = 5.
+269106 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 14 12
+269106 [RMI TCP Connection(27)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+524  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+524  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+551  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+551  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+551  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+551  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+551  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+551  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+551  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+551  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+551  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+551  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+552  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+552  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+552  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+552  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+552  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+552  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+552  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+552  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+552  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+552  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+552  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+552  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+552  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+552  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+552  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+552  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+552  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+553  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+553  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+553  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+553  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+553  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+553  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+553  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+553  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+553  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+553  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+553  [main] INFO  Server.Server  - R
+0    [main] INFO  Server.Server  - Starting Server.
+447  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+447  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+466  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+466  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+466  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+466  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+467  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+467  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+467  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+467  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+467  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+467  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+467  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+467  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+467  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+467  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+467  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+467  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+467  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+467  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+467  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+467  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+467  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+467  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+467  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+467  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+467  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+468  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+468  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+468  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+468  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+468  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+468  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+468  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+468  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+468  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+468  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+468  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+468  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+468  [main] INFO  Server.Server  - R
+4205 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 1 17
+4211 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 19 4
+4221 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 4 = 2.
+4221 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 8 8
+4221 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 8 = 0.
+4222 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 15 19
+4222 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 19.
+4222 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 20 12
+4230 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 12 = 5.
+4230 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 4 6
+4230 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 5 16
+4230 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 5 and 16.
+4230 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 13 5
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 13 and node 5 = 3.
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 7 11
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 11 = 5.
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 3 15
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 3 and 15.
+4237 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+13784 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 20 7
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 7 = 6.
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 1 9
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 17 13
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 13 = -1.
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 10 3
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 10 and 3.
+13788 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 14 11
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 11 = -1.
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 8 6
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 8 and 6.
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 1
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 1 = 2.
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 14 8
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 14 and 8.
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 19 9
+13796 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 14 19
+13803 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 19 = 4.
+13803 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+19526 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 16 1
+19526 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 9 7
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Delete edge between node 9 and 7.
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 5 17
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 5 and 17.
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 14 15
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 14 and 15.
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 16 5
+19527 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 10 19
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 19 = 3.
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 18 3
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 3 = 1.
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 20 6
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 6 = 6.
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 4 17
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 17 = 5.
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 17 17
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 17 = 0.
+19528 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+73167 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 16 7
+73167 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 16 and node 7 = 4.
+73167 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 20 6
+73167 [RMI TCP Connection(4)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 20 and 6.
+73167 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 12
+73168 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 12 = 5.
+73168 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 14 3
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 3 = 4.
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 14
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 14 = 2.
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 7 11
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 5 19
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 16 15
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 15 16
+73169 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 5 20
+73171 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 20 = 6.
+73171 [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+76204 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 11 15
+76204 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 11 and 15.
+76204 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 17 15
+76206 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 15 = -1.
+76206 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 3 11
+76206 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 3 and 11.
+76206 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 4 19
+76209 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 19 = 3.
+76209 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 6 10
+76209 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 19 2
+76209 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 19 and 2.
+76209 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 18 1
+76210 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 18 and 1.
+76210 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 15 19
+76214 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 15 and node 19 = 1.
+76215 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 4 9
+76215 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 9 = 2.
+76215 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 3 11
+76215 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 11 = 1.
+76215 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+455  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+456  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+474  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+474  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+474  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+474  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+474  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+474  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+474  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+474  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+474  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+474  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+474  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+474  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+474  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+475  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+475  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+475  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+475  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+475  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+475  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+475  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+475  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+475  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+475  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+475  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+475  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+475  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+475  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+475  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+475  [main] INFO  Server.Server  - R
+0    [main] INFO  Server.Server  - Starting Server.
+0    [main] INFO  Server.Server  - Starting Server.
+456  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+456  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+474  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+474  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+474  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+474  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+474  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+474  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+474  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+474  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+474  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+474  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+475  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+475  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+475  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+475  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+475  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+475  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+475  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+475  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+475  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+475  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+475  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+475  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+475  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+475  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+475  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+475  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+476  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+476  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+476  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+476  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+476  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+476  [main] INFO  Server.Server  - R
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+694  [Thread-0] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+694  [Thread-0] INFO  Server.Server  - Read initial graph from file initial_graph.
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+747  [Thread-0] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+748  [Thread-0] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+749  [Thread-0] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+750  [Thread-0] INFO  Server.serverGraph  - Building initial graph Successfully.
+750  [Thread-0] INFO  Server.Server  - Number of Nodes in graph = 20.
+750  [Thread-0] INFO  Server.Server  - R
+1196 [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client2.
+1197 [Thread-1] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client2.
+1198 [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client2.
+1199 [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client2.
+1199 [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 14 to node 17, Client2.
+1199 [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 17 to node 14, Client2.
+1199 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 16, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 4 to node 6, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 19 to node 4, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 15 to node 10, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 11 to node 12, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 7 to node 15, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 13 to node 9, Client2.
+1200 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 9, Client2.
+1200 [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client2.
+1208 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 14 17
+1208 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 14 and 17.
+1208 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 17 14
+1208 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 10 16
+1213 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 16 = 3.
+1213 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 4 6
+1213 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 6 = 4.
+1214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 19 4
+1214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 15 10
+1214 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 10.
+1214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 11 12
+1214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 7 15
+1216 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 15 = 1.
+1217 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 13 9
+1217 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 13 and node 9 = 1.
+1217 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 3 9
+1217 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 9 = 3.
+1217 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: F : -1 -1
+1218 [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+1218 [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client2.
+1218 [Thread-1] INFO  Client.Client  - Received Result from server = 1, Client2.
+1219 [Thread-1] INFO  Client.Client  - Received Result from server = 1, Client2.
+1219 [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+1219 [Thread-1] INFO  Client.Client  - Time taken: 18ms, Client2.
+1219 [Thread-1] INFO  Client.Client  - Sleeping 3123ms, Client2.
+4343 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623415785166ms, Client2.
+4343 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 3141ms, Client2.
+6945 [Thread-1] INFO  Client.Client  - Finished Successfully, Client2.
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+394  [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client3.
+396  [Thread-1] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client3.
+401  [Thread-2] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client3.
+402  [Thread-2] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client3.
+408  [Thread-2] INFO  Client.Client  - Sending number of requests = 10, Client3.
+408  [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client3.
+409  [Thread-2] INFO  Client.Client  - Percentage of Writing = 50.0%, Client3.
+409  [Thread-2] INFO  Client.Client  - Randomly generate operation: A from node 7 to node 15, Client3.
+409  [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client3.
+409  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 7 to node 14, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: A from node 14 to node 1, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 17, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: A from node 9 to node 16, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: D from node 13 to node 16, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 6, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 19 to node 8, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 5 to node 3, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: A from node 4 to node 5, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 14 to node 19, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 16 to node 16, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 18 to node 13, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 1 to node 3, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 14 to node 7, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 4, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 8 to node 6, Client3.
+413  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 11 to node 8, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 4 to node 16, Client3.
+413  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 13 to node 20, Client3.
+413  [Thread-2] INFO  Client.Client  - Sending batch_0 to server, Client3.
+414  [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client3.
+65395 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 7 15
+65395 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 7 and 15.
+65395 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 14 1
+65395 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 14 and 1.
+65395 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 18 17
+65395 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 7 14
+65396 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 18 6
+65397 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 6 = 2.
+65397 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 19 8
+65398 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 5 3
+65398 [RMI TCP Connection(5)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 5 and 3.
+65398 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 16 16
+65398 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 18 13
+65398 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 1 3
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 3 = 1.
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 8 6
+65399 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 17 = 6.
+65399 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 9 16
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 6 = 4.
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 4 16
+65399 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 9 and 16.
+65399 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 13 16
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 16 = 5.
+65399 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 13 20
+65401 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 4 5
+65401 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 13 and node 20 = 4.
+65401 [RMI TCP Connection(5)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: F : -1 -1
+65401 [RMI TCP Connection(6)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 4 and 5.
+65401 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 14 19
+423  [Thread-1] INFO  Client.Client  - Received Result from server = 2, Client3.
+423  [Thread-1] INFO  Client.Client  - Received Result from server = 1, Client3.
+423  [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client3.
+423  [Thread-1] INFO  Client.Client  - Received Result from server = 5, Client3.
+423  [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client3.
+424  [Thread-1] INFO  Client.Client  - Time taken: 9ms, Client3.
+424  [Thread-1] INFO  Client.Client  - Sleeping 2191ms, Client3.
+65402 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 19 = 7.
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 14 7
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 7 = 6.
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 10 4
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 4 = 1.
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 11 8
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 11 and node 8 = 4.
+65403 [RMI TCP Connection(6)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: F : -1 -1
+425  [Thread-2] INFO  Client.Client  - Received Result from server = 6, Client3.
+425  [Thread-2] INFO  Client.Client  - Received Result from server = 7, Client3.
+425  [Thread-2] INFO  Client.Client  - Received Result from server = 6, Client3.
+425  [Thread-2] INFO  Client.Client  - Received Result from server = 1, Client3.
+425  [Thread-2] INFO  Client.Client  - Received Result from server = 4, Client3.
+425  [Thread-2] INFO  Client.Client  - Time taken: 12ms, Client3.
+425  [Thread-2] INFO  Client.Client  - Sleeping 8315ms, Client3.
+2616 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623415849349ms, Client3.
+2616 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 2200ms, Client3.
+8741 [Thread-2] INFO  Client.Client  - Received Response from server at time = 1623415849351ms, Client3.
+8741 [Thread-2] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 8327ms, Client3.
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+426  [Thread-0] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+426  [Thread-0] INFO  Server.Server  - Read initial graph from file initial_graph.
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+443  [Thread-0] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+444  [Thread-0] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+445  [Thread-0] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+445  [Thread-0] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+445  [Thread-0] INFO  Server.serverGraph  - Building initial graph Successfully.
+445  [Thread-0] INFO  Server.Server  - Number of Nodes in graph = 20.
+445  [Thread-0] INFO  Server.Server  - R
+944  [Thread-2] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client3.
+948  [Thread-2] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client3.
+949  [Thread-2] INFO  Client.Client  - Sending number of requests = 10, Client3.
+950  [Thread-2] INFO  Client.Client  - Percentage of Writing = 50.0%, Client3.
+950  [Thread-2] INFO  Client.Client  - Randomly generate operation: D from node 4 to node 17, Client3.
+950  [Thread-2] INFO  Client.Client  - Randomly generate operation: D from node 11 to node 7, Client3.
+950  [Thread-2] INFO  Client.Client  - Randomly generate operation: D from node 8 to node 9, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 5 to node 13, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 17 to node 11, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 1 to node 10, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: D from node 14 to node 12, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 7, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: A from node 18 to node 3, Client3.
+951  [Thread-2] INFO  Client.Client  - Randomly generate operation: Q from node 19 to node 17, Client3.
+951  [Thread-2] INFO  Client.Client  - Sending batch_0 to server, Client3.
+958  [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client3.
+958  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 4 17
+958  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 11 7
+958  [Thread-1] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client3.
+958  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 8 9
+959  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 5 13
+959  [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client3.
+960  [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 10 to node 19, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 4 to node 16, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 15 to node 19, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 12 to node 5, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 20 to node 12, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 13 to node 7, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 6 to node 18, Client3.
+960  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 17 to node 18, Client3.
+961  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 9, Client3.
+961  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 8 to node 3, Client3.
+961  [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client3.
+963  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 10 19
+963  [RMI TCP Connection(3)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 10 and 19.
+963  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 4 16
+963  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 13 = 3.
+964  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 17 11
+964  [RMI TCP Connection(3)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 4 and 16.
+964  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 15 19
+966  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 15 and node 19 = -1.
+966  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 12 5
+966  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 11 = -1.
+968  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 1 10
+968  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 20 12
+971  [RMI TCP Connection(3)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 20 and 12.
+972  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 13 7
+972  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 10 = 4.
+972  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: D : 14 12
+972  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 18 7
+972  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 6 18
+975  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 18 = 3.
+975  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 7 = 5.
+975  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: A : 18 3
+975  [RMI TCP Connection(4)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 18 and 3.
+975  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 19 17
+975  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 17 18
+977  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 18 = -1.
+978  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 17 = -1.
+978  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 3 9
+978  [RMI TCP Connection(4)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: F : -1 -1
+978  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 9 = 3.
+978  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: Q : 8 3
+978  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 3 = 3.
+978  [RMI TCP Connection(3)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client3: F : -1 -1
+979  [Thread-2] INFO  Client.Client  - Received Result from server = 3, Client3.
+979  [Thread-1] INFO  Client.Client  - Received Result from server = -1, Client3.
+979  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client3.
+979  [Thread-1] INFO  Client.Client  - Received Result from server = -1, Client3.
+979  [Thread-2] INFO  Client.Client  - Received Result from server = -1, Client3.
+979  [Thread-2] INFO  Client.Client  - Received Result from server = 4, Client3.
+979  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client3.
+979  [Thread-2] INFO  Client.Client  - Received Result from server = 5, Client3.
+979  [Thread-2] INFO  Client.Client  - Received Result from server = -1, Client3.
+979  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client3.
+979  [Thread-2] INFO  Client.Client  - Time taken: 28ms, Client3.
+979  [Thread-1] INFO  Client.Client  - Time taken: 18ms, Client3.
+979  [Thread-2] INFO  Client.Client  - Sleeping 6951ms, Client3.
+979  [Thread-1] INFO  Client.Client  - Sleeping 1133ms, Client3.
+2113 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623416252813ms, Client3.
+2113 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 1151ms, Client3.
+7932 [Thread-2] INFO  Client.Client  - Received Response from server at time = 1623416252813ms, Client3.
+7932 [Thread-2] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 6979ms, Client3.
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+447  [Thread-0] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+447  [Thread-0] INFO  Server.Server  - Read initial graph from file initial_graph.
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+465  [Thread-0] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+466  [Thread-0] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+467  [Thread-0] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+467  [Thread-0] INFO  Server.serverGraph  - Building initial graph Successfully.
+467  [Thread-0] INFO  Server.Server  - Number of Nodes in graph = 20.
+467  [Thread-0] INFO  Server.Server  - R
+949  [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client2.
+950  [Thread-1] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client2.
+951  [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client2.
+951  [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client2.
+951  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 12 to node 12, Client2.
+951  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 10 to node 9, Client2.
+951  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 11 to node 9, Client2.
+951  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 19 to node 1, Client2.
+951  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 4 to node 12, Client2.
+953  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 1 to node 11, Client2.
+953  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 13 to node 9, Client2.
+953  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 16 to node 19, Client2.
+953  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 9 to node 5, Client2.
+953  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 3 to node 7, Client2.
+953  [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client2.
+956  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 12 12
+956  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 12 and node 12 = 0.
+957  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 10 9
+957  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 10 and 9.
+957  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 11 9
+957  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 19 1
+961  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 1 = 5.
+961  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 4 12
+962  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 4 and 12.
+962  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 1 11
+963  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 11 = 4.
+963  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 13 9
+963  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 13 and node 9 = 1.
+964  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 16 19
+964  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 16 and 19.
+964  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 9 5
+965  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 5 = 2.
+965  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 3 7
+966  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 3 and 7.
+966  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: F : -1 -1
+966  [Thread-1] INFO  Client.Client  - Received Result from server = 0, Client2.
+967  [Thread-1] INFO  Client.Client  - Received Result from server = 5, Client2.
+967  [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client2.
+967  [Thread-1] INFO  Client.Client  - Received Result from server = 1, Client2.
+967  [Thread-1] INFO  Client.Client  - Received Result from server = 2, Client2.
+967  [Thread-1] INFO  Client.Client  - Time taken: 13ms, Client2.
+967  [Thread-1] INFO  Client.Client  - Sleeping 7589ms, Client2.
+8558 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623416357458ms, Client2.
+8558 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 7602ms, Client2.
+10783 [Thread-1] INFO  Client.Client  - Finished Successfully, Client2.
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+469  [Thread-0] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+469  [Thread-0] INFO  Server.Server  - Read initial graph from file initial_graph.
+485  [Thread-0] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+485  [Thread-0] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+485  [Thread-0] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+485  [Thread-0] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+486  [Thread-0] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+487  [Thread-0] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+500  [Thread-0] INFO  Server.serverGraph  - Building initial graph Successfully.
+500  [Thread-0] INFO  Server.Server  - Number of Nodes in graph = 20.
+500  [Thread-0] INFO  Server.Server  - R
+971  [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:49053/My_Graph, Client2.
+972  [Thread-1] INFO  Client.Client  - Connected to server //localhost:49053/My_Graph Successfully, Client2.
+973  [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client2.
+974  [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 4 to node 15, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 2 to node 18, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 19 to node 17, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 12 to node 13, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 20 to node 9, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 7 to node 13, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 11 to node 15, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 11 to node 12, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 17, Client2.
+974  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 13, Client2.
+974  [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client2.
+979  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 4 15
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 15 = 4.
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 2 18
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 2 and 18.
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 19 17
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 12 13
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 12 and 13.
+980  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 20 9
+983  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 9 = 6.
+983  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 7 13
+983  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 11 15
+983  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 11 and 15.
+983  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 11 12
+986  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 11 and node 12 = 4.
+986  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 10 17
+986  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 17 = -1.
+987  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 18 13
+987  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 13 = 3.
+987  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: F : -1 -1
+987  [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client2.
+987  [Thread-1] INFO  Client.Client  - Received Result from server = 6, Client2.
+987  [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client2.
+987  [Thread-1] INFO  Client.Client  - Received Result from server = -1, Client2.
+987  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+987  [Thread-1] INFO  Client.Client  - Time taken: 13ms, Client2.
+988  [Thread-1] INFO  Client.Client  - Sleeping 1172ms, Client2.
+2160 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623417015278ms, Client2.
+2160 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 1185ms, Client2.
+7062 [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client2.
+7063 [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 16 to node 16, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 1 to node 7, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 15 to node 1, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 5 to node 19, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 10 to node 15, Client2.
+7063 [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 14 to node 16, Client2.
+7064 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 3, Client2.
+7064 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 8 to node 11, Client2.
+7064 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 7, Client2.
+7064 [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 11 to node 7, Client2.
+7064 [Thread-1] INFO  Client.Client  - Sending batch_1 to server, Client2.
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 16 16
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 1 7
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 1 and 7.
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 15 1
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 1.
+7067 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 5 19
+7068 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 19 = 8.
+7069 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 10 15
+7069 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 10 and 15.
+7069 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 14 16
+7069 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 10 3
+7071 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 3 = 2.
+7071 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 8 11
+7071 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 11 = 4.
+7072 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 3 7
+7072 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 7 = 3.
+7072 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 11 7
+7072 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 11 and node 7 = 3.
+7072 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: F : -1 -1
+7073 [Thread-1] INFO  Client.Client  - Received Result from server = 8, Client2.
+7073 [Thread-1] INFO  Client.Client  - Received Result from server = 2, Client2.
+7073 [Thread-1] INFO  Client.Client  - Received Result from server = 4, Client2.
+7073 [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+7073 [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+7073 [Thread-1] INFO  Client.Client  - Time taken: 9ms, Client2.
+7073 [Thread-1] INFO  Client.Client  - Sleeping 8872ms, Client2.
+15947 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623417021364ms, Client2.
+15947 [Thread-1] INFO  Client.Client  - Time taken for batch_1 + sleeping time = 8881ms, Client2.
+22333 [Thread-1] INFO  Client.Client  - Finished Successfully, Client2.
+0    [Thread-0] INFO  Server.Server  - Starting Server.
+412  [Thread-0] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+412  [Thread-0] INFO  Server.Server  - Read initial graph from file initial_graph.
+428  [Thread-0] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+429  [Thread-0] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+430  [Thread-0] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+447  [Thread-0] INFO  Server.serverGraph  - Building initial graph Successfully.
+447  [Thread-0] INFO  Server.Server  - Number of Nodes in graph = 20.
+447  [Thread-0] INFO  Server.Server  - R
+897  [Thread-1] INFO  Client.Client  - Trying to Connect server //localhost:1099/My_Graph, Client2.
+897  [Thread-1] INFO  Client.Client  - Connected to server //localhost:1099/My_Graph Successfully, Client2.
+898  [Thread-1] INFO  Client.Client  - Sending number of requests = 10, Client2.
+899  [Thread-1] INFO  Client.Client  - Percentage of Writing = 50.0%, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 19 to node 9, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 2 to node 6, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 6 to node 19, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: A from node 6 to node 16, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: D from node 17 to node 3, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 6 to node 15, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 2 to node 9, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 13 to node 5, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 6, Client2.
+899  [Thread-1] INFO  Client.Client  - Randomly generate operation: Q from node 17 to node 4, Client2.
+899  [Thread-1] INFO  Client.Client  - Sending batch_0 to server, Client2.
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 19 9
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 2 6
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Delete edge between node 2 and 6.
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 6 19
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 19.
+902  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: A : 6 16
+903  [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 16.
+903  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: D : 17 3
+903  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 6 15
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 15 = 5.
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 2 9
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 9 = 1.
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 13 5
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 13 and node 5 = 3.
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 3 6
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 6 = 3.
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: Q : 17 4
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 4 = -1.
+907  [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client2: F : -1 -1
+908  [Thread-1] INFO  Client.Client  - Received Result from server = 5, Client2.
+908  [Thread-1] INFO  Client.Client  - Received Result from server = 1, Client2.
+908  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+908  [Thread-1] INFO  Client.Client  - Received Result from server = 3, Client2.
+908  [Thread-1] INFO  Client.Client  - Received Result from server = -1, Client2.
+908  [Thread-1] INFO  Client.Client  - Time taken: 9ms, Client2.
+908  [Thread-1] INFO  Client.Client  - Sleeping 2106ms, Client2.
+3014 [Thread-1] INFO  Client.Client  - Received Response from server at time = 1623419383658ms, Client2.
+3014 [Thread-1] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 2115ms, Client2.
+10027 [Thread-1] INFO  Client.Client  - Finished Successfully, Client2.
+0    [main] INFO  Server.Server  - Starting Server.
+431  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+431  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+450  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+450  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+450  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+450  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+450  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+450  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+450  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+450  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+450  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+450  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+450  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+450  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+450  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+450  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+450  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+450  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+450  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+450  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+451  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+451  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+451  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+451  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+451  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+451  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+451  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+451  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+451  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+451  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+451  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+451  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+451  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+451  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+451  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+451  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+451  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+466  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+466  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+466  [main] INFO  Server.Server  - R
+7207 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 6 2
+7207 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 2.
+7207 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 16 20
+7207 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 6 5
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 5 = 2.
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 10 2
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 2 = 3.
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 7 12
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 7 and 12.
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 1 6
+7209 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 1 and 6.
+7210 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 20 2
+7211 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 2 = 7.
+7212 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 15 2
+7212 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 15 and node 2 = -1.
+7212 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 15 19
+7212 [RMI TCP Connection(2)-172.31.16.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 19.
+7212 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 6 2
+7214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 2 = 1.
+7214 [RMI TCP Connection(2)-172.31.16.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+548  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+548  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+602  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+602  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+602  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+602  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+602  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+602  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+602  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+602  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+602  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+602  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+602  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+602  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+602  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+602  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+602  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+602  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+602  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+602  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+602  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+602  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+602  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+602  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+602  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+602  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+602  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+602  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+602  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+602  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+602  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+602  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+633  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+633  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+633  [main] INFO  Server.Server  - R
+13603 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 13 10
+13603 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 13 and 10.
+13603 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 8 13
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 13 = 1.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 6 4
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 4 = 3.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 6 16
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 16.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 12 16
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 12 and node 16 = 2.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 18
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 18 = 3.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 6 16
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 16.
+13613 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 10 13
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 10 and 13.
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 15 20
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 20.
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 4 8
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 8 = 3.
+13629 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+14941 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 6 3
+14941 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 3.
+14941 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 19 9
+14943 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 9 = 4.
+14943 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 15 20
+14943 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 15 and 20.
+14943 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 15 11
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 15 and node 11 = 2.
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 7 20
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 20 = 2.
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 14 1
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 1 = -1.
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 5 16
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 16 = 2.
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 5 20
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 16 10
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 13 2
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 13 and 2.
+14944 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+41109 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 14 5
+41109 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 6 13
+41109 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 13.
+41109 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 5 7
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 7 = 4.
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 11 11
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 12 10
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 8 1
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 8 and 1.
+41123 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 17 3
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 3 = -1.
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 17 19
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 17 and node 19 = -1.
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 1 12
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 12 = 4.
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 19 5
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 5 = 5.
+41124 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 19 6
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 6 = 4.
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 3 13
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 3 15
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 3 and 15.
+44641 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 19 3
+44642 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 3 15
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 15 = 1.
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 19 15
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 19 and 15.
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 20 11
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 20 and 11.
+44643 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 7 8
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 8 = 7.
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 1 5
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 5 = 4.
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 2 17
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 17 = -1.
+44644 [RMI TCP Connection(8)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+401  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+401  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+432  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+432  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+432  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+432  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+432  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+432  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+432  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+432  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+432  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+432  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+432  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+432  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+432  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+432  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+432  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+432  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+432  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+432  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+432  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+432  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+447  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+447  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+447  [main] INFO  Server.Server  - R
+8459 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 16 16
+8459 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 17 16
+8459 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 17 and 16.
+8475 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 16 1
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 16 and node 1 = 3.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 14 12
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 7 15
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 7 and 15.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 5 2
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 10 19
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 19 = 4.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 19 1
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 1 = 5.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 17
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 17 = -1.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 1 16
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 16 = 7.
+8476 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+68184 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 2 9
+68184 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 2 and 9.
+68184 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 3 2
+68184 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 3 and 2.
+68184 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 4 8
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 4 and node 8 = 3.
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 11
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 11 = 6.
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 17 7
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 17 and 7.
+68195 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 5 17
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 17 = -1.
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 20 1
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 1 20
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 20 = 7.
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 20 11
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 20 and node 11 = 1.
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 20 19
+68196 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 1 10
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 9 14
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 9 and 14.
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 10 14
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 10 and 14.
+88677 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: A : 14 17
+88690 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 14 and 17.
+88690 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: D : 4 12
+88690 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 5 1
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 1 = 2.
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 19 6
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 6 = 5.
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 11 19
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 11 and node 19 = 2.
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 5 4
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 5 and node 4 = 2.
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: Q : 19 15
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 15 = 4.
+88691 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client1: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+417  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+417  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+432  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+432  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+432  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+432  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+432  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+432  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+432  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+432  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+432  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+432  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+432  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+432  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+432  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+432  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+432  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+432  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+432  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+432  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+432  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+432  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+432  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+432  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+432  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+432  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+448  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+448  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+448  [main] INFO  Server.Server  - R
+5585 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 7 10
+5585 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 10 = -1.
+5585 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 1
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 1 = 3.
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 18 18
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 18 = 0.
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 17
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 17 = -1.
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 10 13
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 10 and 13.
+5589 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 1 18
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 1 and node 18 = 2.
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 5 11
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 5 and 11.
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 6 9
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 9.
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 6 5
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 12 11
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 12 and 11.
+5592 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+34164 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 2 6
+34166 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 2 and node 6 = 1.
+34166 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 10 16
+34166 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 16 = 7.
+34166 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 8 2
+34166 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 2 = 3.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 12 9
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 12 and 9.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 12 7
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 12 and 7.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 3 15
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 15 = 5.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 20 3
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 3 4
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 3 and node 4 = 1.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 7 16
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 7 and 16.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 8 14
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 8 and 14.
+34167 [RMI TCP Connection(4)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 16 7
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 16 and 7.
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 4 5
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 18 19
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 18 and 19.
+244472 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 6 1
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 6 and node 1 = 1.
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 10 8
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 10 and node 8 = 1.
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 16 5
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 10 14
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 8 16
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 8 and node 16 = 2.
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 7 2
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 7 and node 2 = 6.
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 19 4
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 19 and node 4 = 2.
+244489 [RMI TCP Connection(6)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1
+0    [main] INFO  Server.Server  - Starting Server.
+417  [main] INFO  Server.Server  - Starting service on port 49053 with name: My_Graph.
+417  [main] INFO  Server.Server  - Read initial graph from file initial_graph.
+433  [main] INFO  Server.serverGraph  - Add Edge 0 to initial graph: from node 1 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 1 to initial graph: from node 1 to node 6
+433  [main] INFO  Server.serverGraph  - Add Edge 2 to initial graph: from node 2 to node 5
+433  [main] INFO  Server.serverGraph  - Add Edge 3 to initial graph: from node 2 to node 6
+433  [main] INFO  Server.serverGraph  - Add Edge 4 to initial graph: from node 3 to node 4
+433  [main] INFO  Server.serverGraph  - Add Edge 5 to initial graph: from node 5 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 6 to initial graph: from node 5 to node 6
+433  [main] INFO  Server.serverGraph  - Add Edge 7 to initial graph: from node 2 to node 7
+433  [main] INFO  Server.serverGraph  - Add Edge 8 to initial graph: from node 18 to node 1
+433  [main] INFO  Server.serverGraph  - Add Edge 9 to initial graph: from node 16 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 10 to initial graph: from node 2 to node 9
+433  [main] INFO  Server.serverGraph  - Add Edge 11 to initial graph: from node 10 to node 4
+433  [main] INFO  Server.serverGraph  - Add Edge 12 to initial graph: from node 20 to node 11
+433  [main] INFO  Server.serverGraph  - Add Edge 13 to initial graph: from node 11 to node 16
+433  [main] INFO  Server.serverGraph  - Add Edge 14 to initial graph: from node 16 to node 19
+433  [main] INFO  Server.serverGraph  - Add Edge 15 to initial graph: from node 19 to node 10
+433  [main] INFO  Server.serverGraph  - Add Edge 16 to initial graph: from node 10 to node 13
+433  [main] INFO  Server.serverGraph  - Add Edge 17 to initial graph: from node 10 to node 8
+433  [main] INFO  Server.serverGraph  - Add Edge 18 to initial graph: from node 8 to node 13
+433  [main] INFO  Server.serverGraph  - Add Edge 19 to initial graph: from node 8 to node 7
+433  [main] INFO  Server.serverGraph  - Add Edge 20 to initial graph: from node 7 to node 15
+433  [main] INFO  Server.serverGraph  - Add Edge 21 to initial graph: from node 9 to node 7
+433  [main] INFO  Server.serverGraph  - Add Edge 22 to initial graph: from node 9 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 23 to initial graph: from node 18 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 24 to initial graph: from node 3 to node 18
+433  [main] INFO  Server.serverGraph  - Add Edge 25 to initial graph: from node 4 to node 3
+433  [main] INFO  Server.serverGraph  - Add Edge 26 to initial graph: from node 13 to node 9
+433  [main] INFO  Server.serverGraph  - Add Edge 27 to initial graph: from node 9 to node 2
+433  [main] INFO  Server.serverGraph  - Add Edge 28 to initial graph: from node 6 to node 1
+433  [main] INFO  Server.serverGraph  - Add Edge 29 to initial graph: from node 9 to node 14
+433  [main] INFO  Server.serverGraph  - Add Edge 30 to initial graph: from node 4 to node 13
+433  [main] INFO  Server.serverGraph  - Add Edge 31 to initial graph: from node 13 to node 10
+433  [main] INFO  Server.serverGraph  - Add Edge 32 to initial graph: from node 10 to node 12
+433  [main] INFO  Server.serverGraph  - Add Edge 33 to initial graph: from node 12 to node 11
+433  [main] INFO  Server.serverGraph  - Add Edge 34 to initial graph: from node 11 to node 20
+448  [main] INFO  Server.serverGraph  - Building initial graph Successfully.
+448  [main] INFO  Server.Server  - Number of Nodes in graph = 20.
+448  [main] INFO  Server.Server  - R
+7181 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: A : 6 4
+7181 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Add edge between node 6 and 4.
+7196 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 18 8
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 18 and node 8 = 5.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 12 18
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 5 16
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 6
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 6 = 2.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 7 8
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: D : 4 13
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Server.serverGraph  - Successfully Delete edge between node 4 and 13.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 1
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 1 = 3.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 9 9
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 9 and node 9 = 0.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: Q : 14 18
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Result of computing shortest path between node 14 and node 18 = -1.
+7197 [RMI TCP Connection(2)-172.23.192.1] INFO  Graph.Graph_Implementation  - Received Operation from client0: F : -1 -1

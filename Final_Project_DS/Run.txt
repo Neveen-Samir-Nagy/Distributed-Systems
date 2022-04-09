@@ -1,0 +1,6 @@
+H:
+cd H:\Java_projects\Final_Project_DS\src
+javac Client/Client.java
+java Client/Client
+
+java -Dfile.encoding=Cp1256 -classpath "H:\Java_projects\Final_Project_DS\bin;H:\Java_projects\Final_Project_DS\log4j.jar" Client.Client

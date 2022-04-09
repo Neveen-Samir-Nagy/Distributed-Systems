@@ -1,0 +1,123 @@
+37   [main] INFO  Client.Client  - Sending number of requests = 10, Client1.
+37   [main] INFO  Client.Client  - Percentage of Writing = 50.0%, Client1.
+37   [main] INFO  Client.Client  - Randomly generate operation: D from node 1 to node 10, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: D from node 9 to node 14, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: A from node 10 to node 14, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: A from node 14 to node 17, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: D from node 4 to node 12, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: Q from node 5 to node 1, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: Q from node 19 to node 6, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: Q from node 11 to node 19, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: Q from node 5 to node 4, Client1.
+53   [main] INFO  Client.Client  - Randomly generate operation: Q from node 19 to node 15, Client1.
+53   [main] INFO  Client.Client  - Sending batch_0 to server, Client1.
+67   [main] INFO  Client.Client  - Sleeping 1046ms, Client1.
+1116 [main] INFO  Client.Client  - Received Result from server = 2, Client1.
+1116 [main] INFO  Client.Client  - Received Result from server = 5, Client1.
+1116 [main] INFO  Client.Client  - Received Result from server = 2, Client1.
+1116 [main] INFO  Client.Client  - Received Result from server = 2, Client1.
+1125 [main] INFO  Client.Client  - Received Result from server = 4, Client1.
+1125 [main] INFO  Client.Client  - Time taken: 14ms, Client1.
+1125 [main] INFO  Client.Client  - Received Response from server at time = 1623501815152ms, Client1.
+1125 [main] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 1060ms, Client1.
+1125 [main] INFO  Client.Client  - Finished Successfully, Client1.
+0    [main] INFO  Client.Client  - Trying to Connect server //localhost:1099/My_Graph, Client0.
+0    [main] INFO  Client.Client  - Connected to server //localhost:1099/My_Graph Successfully, Client0.
+16   [main] INFO  Client.Client  - Sending number of requests = 10, Client0.
+16   [main] INFO  Client.Client  - Percentage of Writing = 50.0%, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 7 to node 10, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 9 to node 1, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 18, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 2 to node 17, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 10 to node 13, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 1 to node 18, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: A from node 5 to node 11, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: A from node 6 to node 9, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 6 to node 5, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 12 to node 11, Client0.
+16   [main] INFO  Client.Client  - Sending batch_0 to server, Client0.
+38   [main] INFO  Client.Client  - Sleeping 5881ms, Client0.
+5923 [main] INFO  Client.Client  - Received Result from server = -1, Client0.
+5923 [main] INFO  Client.Client  - Received Result from server = 3, Client0.
+5923 [main] INFO  Client.Client  - Received Result from server = 0, Client0.
+5923 [main] INFO  Client.Client  - Received Result from server = -1, Client0.
+5923 [main] INFO  Client.Client  - Received Result from server = 2, Client0.
+5923 [main] INFO  Client.Client  - Time taken: 22ms, Client0.
+5939 [main] INFO  Client.Client  - Received Response from server at time = 1623501890350ms, Client0.
+5939 [main] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 5903ms, Client0.
+5939 [main] INFO  Client.Client  - Finished Successfully, Client0.
+0    [main] INFO  Client.Client  - Trying to Connect server //localhost:1099/My_Graph, Client0.
+0    [main] INFO  Client.Client  - Connected to server //localhost:1099/My_Graph Successfully, Client0.
+15   [main] INFO  Client.Client  - Sending number of requests = 10, Client0.
+15   [main] INFO  Client.Client  - Percentage of Writing = 50.0%, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: Q from node 2 to node 6, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 16, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: Q from node 8 to node 2, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: A from node 12 to node 9, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: A from node 12 to node 7, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 15, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: D from node 20 to node 3, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: Q from node 3 to node 4, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: A from node 7 to node 16, Client0.
+15   [main] INFO  Client.Client  - Randomly generate operation: A from node 8 to node 14, Client0.
+15   [main] INFO  Client.Client  - Sending batch_0 to server, Client0.
+34   [main] INFO  Client.Client  - Received Result from server = 1, Client0.
+34   [main] INFO  Client.Client  - Received Result from server = 7, Client0.
+34   [main] INFO  Client.Client  - Received Result from server = 3, Client0.
+34   [main] INFO  Client.Client  - Received Result from server = 5, Client0.
+34   [main] INFO  Client.Client  - Received Result from server = 1, Client0.
+34   [main] INFO  Client.Client  - Time taken: 19ms, Client0.
+34   [main] INFO  Client.Client  - Sleeping 6962ms, Client0.
+7007 [main] INFO  Client.Client  - Received Response from server at time = 1623501918925ms, Client0.
+7007 [main] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 6981ms, Client0.
+7016 [main] INFO  Client.Client  - Finished Successfully, Client0.
+0    [main] INFO  Client.Client  - Trying to Connect server //localhost:1099/My_Graph, Client0.
+0    [main] INFO  Client.Client  - Connected to server //localhost:1099/My_Graph Successfully, Client0.
+0    [main] INFO  Client.Client  - Sending number of requests = 10, Client0.
+0    [main] INFO  Client.Client  - Percentage of Writing = 50.0%, Client0.
+0    [main] INFO  Client.Client  - Randomly generate operation: A from node 16 to node 7, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 4 to node 5, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: A from node 18 to node 19, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 6 to node 1, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 10 to node 8, Client0.
+23   [main] INFO  Client.Client  - Randomly generate operation: D from node 16 to node 5, Client0.
+23   [main] INFO  Client.Client  - Randomly generate operation: D from node 10 to node 14, Client0.
+23   [main] INFO  Client.Client  - Randomly generate operation: Q from node 8 to node 16, Client0.
+23   [main] INFO  Client.Client  - Randomly generate operation: Q from node 7 to node 2, Client0.
+23   [main] INFO  Client.Client  - Randomly generate operation: Q from node 19 to node 4, Client0.
+23   [main] INFO  Client.Client  - Sending batch_0 to server, Client0.
+40   [main] INFO  Client.Client  - Received Result from server = 1, Client0.
+40   [main] INFO  Client.Client  - Received Result from server = 1, Client0.
+40   [main] INFO  Client.Client  - Received Result from server = 2, Client0.
+40   [main] INFO  Client.Client  - Received Result from server = 6, Client0.
+40   [main] INFO  Client.Client  - Received Result from server = 2, Client0.
+40   [main] INFO  Client.Client  - Time taken: 17ms, Client0.
+40   [main] INFO  Client.Client  - Sleeping 8763ms, Client0.
+8814 [main] INFO  Client.Client  - Received Response from server at time = 1623502129247ms, Client0.
+8814 [main] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 8780ms, Client0.
+8814 [main] INFO  Client.Client  - Finished Successfully, Client0.
+0    [main] INFO  Client.Client  - Trying to Connect server //localhost:1099/My_Graph, Client0.
+0    [main] INFO  Client.Client  - Connected to server //localhost:1099/My_Graph Successfully, Client0.
+0    [main] INFO  Client.Client  - Sending number of requests = 10, Client0.
+0    [main] INFO  Client.Client  - Percentage of Writing = 50.0%, Client0.
+0    [main] INFO  Client.Client  - Randomly generate operation: A from node 6 to node 4, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 18 to node 8, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 12 to node 18, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 5 to node 16, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 9 to node 6, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 7 to node 8, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: D from node 4 to node 13, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 9 to node 1, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 9 to node 9, Client0.
+16   [main] INFO  Client.Client  - Randomly generate operation: Q from node 14 to node 18, Client0.
+16   [main] INFO  Client.Client  - Sending batch_0 to server, Client0.
+32   [main] INFO  Client.Client  - Received Result from server = 5, Client0.
+32   [main] INFO  Client.Client  - Received Result from server = 2, Client0.
+32   [main] INFO  Client.Client  - Received Result from server = 3, Client0.
+32   [main] INFO  Client.Client  - Received Result from server = 0, Client0.
+32   [main] INFO  Client.Client  - Received Result from server = -1, Client0.
+32   [main] INFO  Client.Client  - Time taken: 16ms, Client0.
+32   [main] INFO  Client.Client  - Sleeping 9183ms, Client0.
+9231 [main] INFO  Client.Client  - Received Response from server at time = 1623502343393ms, Client0.
+9231 [main] INFO  Client.Client  - Time taken for batch_0 + sleeping time = 9199ms, Client0.
+9231 [main] INFO  Client.Client  - Finished Successfully, Client0.

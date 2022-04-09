@@ -1,0 +1,35 @@
+percentage: 0.0
+Client0_time: 6ms
+Client0_time+sleep = 2625ms
+Client1_time: 5ms
+Client1_time+sleep = 6900ms
+==============================
+percentage: 0.25
+Client0_time: 9ms
+Client0_time+sleep = 7866ms
+Client1_time: 9ms
+Client1_time+sleep = 2863ms
+==============================
+percentage: 0.3
+Client0_time: 11ms
+Client0_time+sleep = 895ms
+Client1_time: 10ms
+Client1_time+sleep = 8856ms
+==============================
+percentage: 0.5
+Client0_time: 13ms
+Client0_time+sleep = 2065ms
+Client1_time: 9ms
+Client1_time+sleep = 2386ms
+==============================
+percentage: 0.75
+Client0_time: 15ms
+Client0_time+sleep = 4573ms
+Client1_time: 12ms
+Client1_time+sleep = 964ms
+==============================
+percentage: 1
+Client0_time: 14ms
+Client0_time+sleep = 6463ms
+Client1_time: 18ms
+Client1_time+sleep = 9850ms
